@@ -2,8 +2,9 @@
 /*
 Dileep kumar 
 */
-
 GPA calculator using java language
+
+
 import java.util.Scanner;
 
 class GPA {
@@ -15,8 +16,7 @@ class GPA {
         int sumCreditGpa = 0;
         double creditGpa ;
         double totalCreditHours=0;
-		double percentage;
-		double GPA=0;
+	double GPA=0;
 
         System.out.println("Enter the number of Subjects");
         size = scan.nextInt();
